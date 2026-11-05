@@ -11,10 +11,14 @@
         android:id="@+id/btnReturntoHome2"
         android:layout_width="163dp"
         android:layout_height="46dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="544dp"
+        android:layout_marginEnd="124dp"
         android:backgroundTint="#757575"
         android:text="Return to Home"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="544dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnBack2"
@@ -106,33 +110,49 @@
         android:id="@+id/imageView9"
         android:layout_width="25dp"
         android:layout_height="24dp"
-        app:srcCompat="@drawable/room"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="99dp" />
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="99dp"
+        android:layout_marginEnd="280dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/room" />
 
     <ImageView
         android:id="@+id/imageView10"
         android:layout_width="17dp"
         android:layout_height="20dp"
-        app:srcCompat="@drawable/date"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="146dp" />
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="146dp"
+        android:layout_marginEnd="281dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/date" />
 
     <ImageView
         android:id="@+id/imageView11"
         android:layout_width="15dp"
         android:layout_height="19dp"
-        app:srcCompat="@drawable/time"
-        tools:layout_editor_absoluteX="115dp"
-        tools:layout_editor_absoluteY="174dp" />
+        android:layout_marginStart="115dp"
+        android:layout_marginTop="174dp"
+        android:layout_marginEnd="281dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/time" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="17dp"
         android:layout_height="23dp"
-        app:srcCompat="@drawable/employee"
-        tools:layout_editor_absoluteX="113dp"
-        tools:layout_editor_absoluteY="199dp" />
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="199dp"
+        android:layout_marginEnd="281dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/employee" />
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
@@ -166,17 +186,25 @@
         android:id="@+id/imageView42"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="229dp"
         android:tint="#020000"
-        app:srcCompat="@drawable/outline_arrow_back_ios_24"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="496dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24" />
 
     <ImageView
         android:id="@+id/imageView43"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/outline_home_24"
-        tools:layout_editor_absoluteX="131dp"
-        tools:layout_editor_absoluteY="557dp" />
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="557dp"
+        android:layout_marginEnd="256dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_home_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

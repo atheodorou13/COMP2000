@@ -1,7 +1,7 @@
 package com.example.officespacebooking;
 
 import android.os.Bundle;
-
+import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
@@ -15,6 +15,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         WindowCompat.enableEdgeToEdge(getWindow());
         setContentView(R.layout.activity_main);
+        findViewById(R.id.btnLogin).setOnClickListener(v -> {
+            startActivity(new Intent(MainActivity.this, EmployeeHomeActivity.class));
+        });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

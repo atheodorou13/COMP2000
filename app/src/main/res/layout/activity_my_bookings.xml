@@ -8,92 +8,60 @@
     tools:context=".MyBookingsActivity">
 
     <Button
-        android:id="@+id/btnReturntoHome3"
-        android:layout_width="163dp"
-        android:layout_height="46dp"
-        android:backgroundTint="#757575"
-        android:text="Return to Home"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="642dp" />
-
-    <Button
         android:id="@+id/btnBack4"
         android:layout_width="123dp"
         android:layout_height="44dp"
+        android:layout_marginStart="159dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginEnd="129dp"
         android:backgroundTint="#757575"
         android:text="Back"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="586dp" />
-
-    <LinearLayout
-        android:id="@+id/layoutBooking1"
-        android:layout_width="300dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="228dp"
-        android:background="#FBE1E5"
-        android:orientation="vertical"
-        android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnPast">
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView39"
-            android:layout_width="53dp"
-            android:layout_height="25dp"
-            android:tint="#070000"
-            app:srcCompat="@drawable/jamboard_kiosk_24dp_ffffff_fill0_wght400_grad0_opsz24" />
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="172dp"
+        android:layout_marginTop="636dp"
+        android:layout_marginEnd="215dp"
+        android:tint="#050000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24" />
 
-        <TextView
-            android:id="@+id/txtBookingRoom2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Seminar Room 1"
-            android:textSize="20sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/txtBookingDate2"
-            android:layout_width="match_parent"
-            android:layout_height="27dp"
-            android:text="28 Oct 2026"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/txtBookingTime2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="15:00 - 16:00"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/txtBookingStatus2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Status: Approved"
-            android:textColor="#228B22"
-            android:textSize="16sp" />
-
-        <Button
-            android:id="@+id/btnCancelBooking1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:backgroundTint="#00B8C4"
-            android:text="View Details" />
-
-    </LinearLayout>
+    <Button
+        android:id="@+id/btnReturntoHome3"
+        android:layout_width="165dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#757575"
+        android:text="Return to Home"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.552"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack4" />
 
     <TextView
         android:id="@+id/txtMyBookingsTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="72dp"
+        android:layout_marginEnd="137dp"
         android:text="My Bookings"
         android:textAllCaps="false"
         android:textColor="#031DB4"
         android:textSize="24sp"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -101,12 +69,12 @@
         android:id="@+id/layoutBooking1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="12dp"
         android:background="#FBE1E5"
         android:orientation="vertical"
         android:padding="16dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintHorizontal_bias="0.594"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPast">
 
@@ -156,40 +124,97 @@
     </LinearLayout>
 
     <Button
-        android:id="@+id/btnPast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="68dp"
-        android:backgroundTint="#757575"
-        android:text="Past"
-        app:layout_constraintEnd_toEndOf="parent"
-        tools:layout_editor_absoluteY="106dp" />
-
-    <Button
         android:id="@+id/btnUpcoming"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
+        android:layout_marginStart="84dp"
+        android:layout_marginTop="24dp"
         android:backgroundTint="#00B8C4"
         android:text="Upcoming"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="106dp" />
+        app:layout_constraintTop_toBottomOf="@+id/txtMyBookingsTitle" />
 
-    <ImageView
-        android:id="@+id/imageView40"
+    <Button
+        android:id="@+id/btnPast"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:tint="#050000"
-        app:srcCompat="@drawable/outline_arrow_back_ios_24"
-        tools:layout_editor_absoluteX="178dp"
-        tools:layout_editor_absoluteY="596dp" />
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#757575"
+        android:text="Past"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.388"
+        app:layout_constraintStart_toEndOf="@+id/btnUpcoming"
+        app:layout_constraintTop_toBottomOf="@+id/txtMyBookingsTitle" />
+
+    <LinearLayout
+        android:id="@+id/layoutBooking1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="232dp"
+        android:background="#FBE1E5"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.594"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnPast">
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="53dp"
+            android:layout_height="25dp"
+            android:tint="#070000"
+            app:srcCompat="@drawable/jamboard_kiosk_24dp_ffffff_fill0_wght400_grad0_opsz24" />
+
+        <TextView
+            android:id="@+id/txtBookingRoom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Seminar Room 1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtBookingDate2"
+            android:layout_width="match_parent"
+            android:layout_height="27dp"
+            android:text="28 Oct 2026"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtBookingTime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="15:00 - 16:00"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtBookingStatus2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Status: Approved"
+            android:textColor="#228B22"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnCancelBooking1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00B8C4"
+            android:text="View Details" />
+
+    </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageView41"
+        android:id="@+id/imageView14"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/outline_home_24"
-        tools:layout_editor_absoluteX="154dp"
-        tools:layout_editor_absoluteY="652dp" />
+        android:layout_marginStart="148dp"
+        android:layout_marginTop="691dp"
+        android:layout_marginEnd="239dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_home_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

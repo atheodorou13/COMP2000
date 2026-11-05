@@ -1,7 +1,7 @@
 package com.example.officespacebooking;
 
 import android.os.Bundle;
-
+import android.content.Intent;
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.graphics.Insets;
@@ -15,6 +15,21 @@ public class BookingDetailsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         EdgeToEdge.enable(this);
         setContentView(R.layout.activity_booking_details);
+        findViewById(R.id.btnCancelBooking1).setOnClickListener(v -> {
+            startActivity(new Intent(this, CancellationConfirmationActivity.class));
+        });
+
+        findViewById(R.id.btnmybookings2).setOnClickListener(v -> {
+            startActivity(new Intent(this, MyBookingsActivity.class));
+        });
+
+        findViewById(R.id.btnBack5).setOnClickListener(v -> {
+            finish();
+        });
+
+        findViewById(R.id.btnReturntoHome4).setOnClickListener(v -> {
+            startActivity(new Intent(this, EmployeeHomeActivity.class));
+        });
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);

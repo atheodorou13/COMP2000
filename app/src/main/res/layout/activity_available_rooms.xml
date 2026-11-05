@@ -36,125 +36,163 @@
         android:id="@+id/btnMeetingRoom1"
         android:layout_width="240dp"
         android:layout_height="56dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="86dp"
+        android:layout_marginTop="218dp"
+        android:layout_marginEnd="85dp"
         android:backgroundTint="#00B8C4"
         android:text="Meeting Room 1"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtAvailabilityInfo" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnMeetingRoom2"
         android:layout_width="240dp"
         android:layout_height="56dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="290dp"
+        android:layout_marginEnd="86dp"
         android:backgroundTint="#00B8C4"
         android:text="Meeting Room 2"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMeetingRoom1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnSeminarRoom1"
         android:layout_width="240dp"
         android:layout_height="56dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="362dp"
+        android:layout_marginEnd="86dp"
         android:backgroundTint="#00B8C4"
         android:text="Seminar Room 1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMeetingRoom2" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnMyBookings"
         android:layout_width="200dp"
         android:layout_height="48dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="106dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="105dp"
         android:backgroundTint="#757575"
         android:text="My bookings"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnSeminarRoom1" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnBack"
         android:layout_width="200dp"
         android:layout_height="48dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="514dp"
+        android:layout_marginEnd="106dp"
         android:backgroundTint="#757575"
         android:text="Back"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnMyBookings" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="34dp"
         android:layout_height="34dp"
-        app:srcCompat="@drawable/room"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="228dp" />
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/room" />
 
     <ImageView
         android:id="@+id/imageView4"
         android:layout_width="34dp"
         android:layout_height="34dp"
-        app:srcCompat="@drawable/room"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="300dp" />
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="272dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/room" />
 
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/baseline_arrow_forward_24"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="238dp" />
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_forward_24" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/baseline_arrow_forward_24"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="310dp" />
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="310dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_forward_24" />
 
     <ImageView
         android:id="@+id/imageView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/baseline_arrow_forward_24"
-        tools:layout_editor_absoluteX="259dp"
-        tools:layout_editor_absoluteY="383dp" />
+        android:layout_marginStart="259dp"
+        android:layout_marginTop="383dp"
+        android:layout_marginEnd="128dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/baseline_arrow_forward_24" />
 
     <ImageView
         android:id="@+id/imageView25"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mybookings"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="461dp" />
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginEnd="262dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mybookings" />
 
     <ImageView
         android:id="@+id/imageView26"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="125dp"
+        android:layout_marginTop="524dp"
+        android:layout_marginEnd="262dp"
         android:tint="#000000"
-        app:srcCompat="@drawable/outline_arrow_back_ios_24"
-        tools:layout_editor_absoluteX="124dp"
-        tools:layout_editor_absoluteY="524dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24" />
 
     <ImageView
         android:id="@+id/imageView5"
         android:layout_width="28dp"
         android:layout_height="28dp"
+        android:layout_marginStart="105dp"
+        android:layout_marginTop="379dp"
+        android:layout_marginEnd="278dp"
         android:tint="#000000"
-        app:srcCompat="@drawable/jamboard_kiosk_24dp_ffffff_fill0_wght400_grad0_opsz24"
-        tools:layout_editor_absoluteX="105dp"
-        tools:layout_editor_absoluteY="379dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/jamboard_kiosk_24dp_ffffff_fill0_wght400_grad0_opsz24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

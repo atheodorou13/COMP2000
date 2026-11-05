@@ -11,31 +11,40 @@
         android:id="@+id/btnMyBookings2"
         android:layout_width="200dp"
         android:layout_height="48dp"
-        android:layout_marginTop="128dp"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="496dp"
+        android:layout_marginEnd="117dp"
         android:backgroundTint="#757575"
         android:text="My bookings"
-        app:layout_constraintTop_toBottomOf="@+id/btnPendingApproval"
-        tools:layout_editor_absoluteX="94dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnReturntoHome"
         android:layout_width="176dp"
         android:layout_height="48dp"
-        android:layout_marginTop="56dp"
+        android:layout_marginStart="108dp"
+        android:layout_marginTop="600dp"
+        android:layout_marginEnd="127dp"
         android:backgroundTint="#757575"
         android:text="Return to Home"
-        app:layout_constraintTop_toBottomOf="@+id/btnMyBookings2"
-        tools:layout_editor_absoluteX="108dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/btnBack3"
         android:layout_width="123dp"
         android:layout_height="44dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="548dp"
+        android:layout_marginEnd="157dp"
         android:backgroundTint="#757575"
         android:text="Back"
-        app:layout_constraintTop_toBottomOf="@+id/btnMyBookings2"
-        tools:layout_editor_absoluteX="131dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtRoomDate2"
@@ -48,14 +57,6 @@
         app:layout_constraintHorizontal_bias="0.374"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <ImageView
-        android:id="@+id/imageView17"
-        android:layout_width="15dp"
-        android:layout_height="19dp"
-        app:srcCompat="@drawable/time"
-        tools:layout_editor_absoluteX="79dp"
-        tools:layout_editor_absoluteY="299dp" />
 
     <TextView
         android:id="@+id/txtRoomTime2"
@@ -75,22 +76,27 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="224dp"
         android:backgroundTint="#E7C2C2"
         android:text="Pending Approval"
         android:textColor="#9C27B0"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtRoomCapacity2" />
 
     <TextView
         android:id="@+id/txtRoomName2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="94dp"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="168dp"
         android:text="Meeting Room 1"
         android:textSize="20sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="94dp"
-        tools:layout_editor_absoluteY="252dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtRoomCapacity2"
@@ -105,34 +111,12 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="17dp"
-        android:layout_height="23dp"
-        app:srcCompat="@drawable/employee"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="318dp" />
-
-    <ImageView
-        android:id="@+id/imageView16"
-        android:layout_width="17dp"
-        android:layout_height="20dp"
-        app:srcCompat="@drawable/date"
-        tools:layout_editor_absoluteX="77dp"
-        tools:layout_editor_absoluteY="279dp" />
-
-    <ImageView
-        android:id="@+id/imageView15"
-        android:layout_width="20dp"
-        android:layout_height="19dp"
-        app:srcCompat="@drawable/room"
-        tools:layout_editor_absoluteX="74dp"
-        tools:layout_editor_absoluteY="255dp" />
-
-    <ImageView
         android:id="@+id/imageView13"
         android:layout_width="113dp"
         android:layout_height="89dp"
-        android:layout_marginTop="32dp"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="149dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -142,45 +126,61 @@
         android:id="@+id/txtRequestSubmitted"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="137dp"
         android:text="Booking Request Submitted"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView13" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/txtRequestMessage"
         android:layout_width="306dp"
         android:layout_height="43dp"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="40dp"
         android:text="Your request has been submitted and is awaiting manager approval"
-        tools:layout_editor_absoluteX="65dp"
-        tools:layout_editor_absoluteY="184dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView27"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/mybookings"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="506dp" />
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="506dp"
+        android:layout_marginEnd="273dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mybookings" />
 
     <ImageView
         android:id="@+id/imageView28"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="560dp"
+        android:layout_marginEnd="238dp"
         android:tint="#040303"
-        app:srcCompat="@drawable/outline_arrow_back_ios_24"
-        tools:layout_editor_absoluteX="149dp"
-        tools:layout_editor_absoluteY="560dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24" />
 
     <ImageView
         android:id="@+id/imageView29"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/outline_home_24"
-        tools:layout_editor_absoluteX="114dp"
-        tools:layout_editor_absoluteY="612dp" />
+        android:layout_marginStart="114dp"
+        android:layout_marginTop="612dp"
+        android:layout_marginEnd="273dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outline_home_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

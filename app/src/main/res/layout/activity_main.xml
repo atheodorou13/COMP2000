@@ -84,16 +84,24 @@
         android:id="@+id/imageView18"
         android:layout_width="34dp"
         android:layout_height="31dp"
-        app:srcCompat="@drawable/email"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="244dp" />
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="313dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/email" />
 
     <ImageView
         android:id="@+id/imageView19"
         android:layout_width="34dp"
         android:layout_height="35dp"
-        app:srcCompat="@drawable/password"
-        tools:layout_editor_absoluteX="67dp"
-        tools:layout_editor_absoluteY="316dp" />
+        android:layout_marginStart="67dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="310dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/password" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
