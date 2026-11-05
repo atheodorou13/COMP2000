@@ -19,8 +19,8 @@
 
     <Button
         android:id="@+id/btnReturntoHome4"
-        android:layout_width="163dp"
-        android:layout_height="46dp"
+        android:layout_width="176dp"
+        android:layout_height="49dp"
         android:backgroundTint="#757575"
         android:text="Return to Home"
         tools:layout_editor_absoluteX="121dp"
@@ -58,6 +58,13 @@
         android:padding="16dp"
         tools:layout_editor_absoluteX="55dp"
         tools:layout_editor_absoluteY="90dp">
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="43dp"
+            android:layout_height="31dp"
+            android:baselineAlignBottom="true"
+            app:srcCompat="@drawable/room" />
 
         <TextView
             android:id="@+id/txtBookingRoom2"
@@ -102,5 +109,30 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/layoutBooking1" />
+
+    <ImageView
+        android:id="@+id/imageView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mybookings"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="450dp" />
+
+    <ImageView
+        android:id="@+id/imageView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#000000"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="516dp" />
+
+    <ImageView
+        android:id="@+id/imageView34"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_home_24"
+        tools:layout_editor_absoluteX="129dp"
+        tools:layout_editor_absoluteY="576dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -19,13 +19,13 @@
 
     <Button
         android:id="@+id/btnReturntoHome"
-        android:layout_width="163dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="60dp"
+        android:layout_width="176dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="56dp"
         android:backgroundTint="#757575"
         android:text="Return to Home"
         app:layout_constraintTop_toBottomOf="@+id/btnMyBookings2"
-        tools:layout_editor_absoluteX="114dp" />
+        tools:layout_editor_absoluteX="108dp" />
 
     <Button
         android:id="@+id/btnBack3"
@@ -157,5 +157,30 @@
         android:text="Your request has been submitted and is awaiting manager approval"
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="184dp" />
+
+    <ImageView
+        android:id="@+id/imageView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/mybookings"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="506dp" />
+
+    <ImageView
+        android:id="@+id/imageView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#040303"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24"
+        tools:layout_editor_absoluteX="149dp"
+        tools:layout_editor_absoluteY="560dp" />
+
+    <ImageView
+        android:id="@+id/imageView29"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_home_24"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="612dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

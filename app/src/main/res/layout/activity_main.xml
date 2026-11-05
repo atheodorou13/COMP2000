@@ -80,4 +80,20 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextPassword" />
 
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="34dp"
+        android:layout_height="31dp"
+        app:srcCompat="@drawable/email"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="244dp" />
+
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="34dp"
+        android:layout_height="35dp"
+        app:srcCompat="@drawable/password"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="316dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

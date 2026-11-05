@@ -18,7 +18,7 @@
 
     <Button
         android:id="@+id/btnBack2"
-        android:layout_width="200dp"
+        android:layout_width="138dp"
         android:layout_height="48dp"
         android:layout_marginTop="16dp"
         android:backgroundTint="#757575"
@@ -161,5 +161,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine" />
+
+    <ImageView
+        android:id="@+id/imageView42"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#020000"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24"
+        tools:layout_editor_absoluteX="158dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <ImageView
+        android:id="@+id/imageView43"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_home_24"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="557dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

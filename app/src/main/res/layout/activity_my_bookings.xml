@@ -29,7 +29,7 @@
         android:id="@+id/layoutBooking1"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="216dp"
+        android:layout_marginTop="228dp"
         android:background="#FBE1E5"
         android:orientation="vertical"
         android:padding="16dp"
@@ -37,6 +37,13 @@
         app:layout_constraintHorizontal_bias="0.63"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPast">
+
+        <ImageView
+            android:id="@+id/imageView39"
+            android:layout_width="53dp"
+            android:layout_height="25dp"
+            android:tint="#070000"
+            app:srcCompat="@drawable/jamboard_kiosk_24dp_ffffff_fill0_wght400_grad0_opsz24" />
 
         <TextView
             android:id="@+id/txtBookingRoom2"
@@ -103,6 +110,12 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnPast">
 
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="28dp"
+            android:layout_height="31dp"
+            app:srcCompat="@drawable/room" />
+
         <TextView
             android:id="@+id/txtBookingRoom2"
             android:layout_width="match_parent"
@@ -161,5 +174,22 @@
         android:text="Upcoming"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="106dp" />
+
+    <ImageView
+        android:id="@+id/imageView40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:tint="#050000"
+        app:srcCompat="@drawable/outline_arrow_back_ios_24"
+        tools:layout_editor_absoluteX="178dp"
+        tools:layout_editor_absoluteY="596dp" />
+
+    <ImageView
+        android:id="@+id/imageView41"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/outline_home_24"
+        tools:layout_editor_absoluteX="154dp"
+        tools:layout_editor_absoluteY="652dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
