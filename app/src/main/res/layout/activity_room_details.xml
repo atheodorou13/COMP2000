@@ -8,6 +8,15 @@
     tools:context=".RoomDetailsActivity">
 
     <Button
+        android:id="@+id/btnReturntoHome2"
+        android:layout_width="163dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#757575"
+        android:text="Return to Home"
+        tools:layout_editor_absoluteX="124dp"
+        tools:layout_editor_absoluteY="544dp" />
+
+    <Button
         android:id="@+id/btnBack2"
         android:layout_width="200dp"
         android:layout_height="48dp"
