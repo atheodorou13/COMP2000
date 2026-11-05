@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CancellationConfirmationActivity">
+
+    <Button
+        android:id="@+id/btnCancelBooking"
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#E53935"
+        android:text="Confirm Cancellation"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/layoutBooking1" />
+
+    <LinearLayout
+        android:id="@+id/layoutBooking1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:background="#FBE1E5"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="90dp">
+
+        <TextView
+            android:id="@+id/txtBookingRoom2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Meeting Room 1"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtBookingDate2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="26 Oct 2026"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/txtBookingTime2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="10:00 - 11:00"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReturntoHome5"
+        android:layout_width="163dp"
+        android:layout_height="46dp"
+        android:backgroundTint="#757575"
+        android:text="Return to Home"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <Button
+        android:id="@+id/btnBack6"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#757575"
+        android:text="Back"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="503dp" />
+
+    <Button
+        android:id="@+id/btnKeepBooking"
+        android:layout_width="292dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#757575"
+        android:text="Keep Booking"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="59dp"
+        tools:layout_editor_absoluteY="290dp" />
+
+    <Button
+        android:id="@+id/btnmybookings3"
+        android:layout_width="200dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#757575"
+        android:text="My Bookings"
+        android:textColor="#FFFFFF"
+        tools:layout_editor_absoluteX="105dp"
+        tools:layout_editor_absoluteY="441dp" />
+
+    <TextView
+        android:id="@+id/txtCancelBooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Cancel this booking?"
+        android:textAllCaps="false"
+        android:textColor="#031DB4"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
